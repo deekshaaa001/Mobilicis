@@ -11,7 +11,7 @@ const Query1 = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/users/query1", {
+      .get("https://mobilicis-3u7f.onrender.com/users/query1", {
         withCredentials: true,
         headers: headers,
       })

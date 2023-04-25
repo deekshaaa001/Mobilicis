@@ -10,7 +10,7 @@ const Query3 =()=> {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/users/query3', {
+    axios.get('https://mobilicis-3u7f.onrender.com/users/query3', {
       withCredentials: true,
       headers: headers
     })
